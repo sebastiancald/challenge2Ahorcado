@@ -1,0 +1,36 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    color: #0A3871;
+    flex-direction: column;
+    height: 100vh;
+    max-height: 100vh;
+    justify-content: flex-end;
+    background-image: linear-gradient(white, #E9ECF8);
+}
+.tablero {
+    
+    position: fixed;
+    top: 2vh;
+    left: 400px;
+    width: 96vw;
+    justify-content: space-between;
+}
+
+.logo:hover {
+    cursor: pointer;
+    color: #609ED4;
+}
+
+.tablero p {
+    font-size: 1.05em;
+    font-weight: bold;
+    color: #609ED4;
+    text-align: right;
+}
+#ahorcado{
+    height: 212px;
+    width: 205px;
+    left: 100%;
+    background-image: url('./hangman-game_pm-1024x212.png');
+}
+
